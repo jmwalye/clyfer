@@ -1,0 +1,57 @@
+body {
+  font: 100% Arial, sans-serif;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: purple;
+  text-align: center;
+}
+
+th, td {
+  border: solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.top {
+  border: 5px solid red;
+}
+
+.bottom {
+  border: 5px solid green;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: pearl;
+  }
+}
+@media (max-width: 499px) {
+  body {
+    background-color: yellow;
+  }
+}
+#idntfier {
+  font-family: courier;
+}
+
+ul, ol {
+  font-size: 18px;
+  color: red;
+}
+
+ol {
+  color: yellow;
+}
+
+/*# sourceMappingURL=clgstyles.css.map */

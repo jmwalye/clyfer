@@ -1,0 +1,73 @@
+$font-stack:    Arial, sans-serif;
+//$primary-color: #333;
+//  color: $primary-color;
+
+
+body {
+//using variable font-stack
+  font: 100% $font-stack;
+
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: purple;
+  text-align: center;
+}
+
+th, td {
+  border: solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.top {
+  border: 5px solid red;
+}
+
+.bottom {
+  border: 5px solid green;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: pearl;
+  }
+}
+@media (max-width: 499px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+#idntfier {
+    		font-family: courier
+    	}
+
+
+//    <style type="text/css">
+//    	#idntfier {
+//    		font-family: courier
+//    	}
+//    </style>
+
+$color: red;
+$color2: yellow;
+ul {
+ font-size: 18px;
+ color: $color;
+}
+ol {
+//extend font properties from ul
+ @extend ul;
+ color: $color2;
+}

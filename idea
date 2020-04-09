@@ -1,0 +1,10 @@
+CLG
+
+Members
+ordered list
+	number memberid names contact next_of_kin brief
+Investment Options
+	number business_type capital_required unit_capital project_timelines reward unit_reware pic
+Subcription
+	number dateofpay member subscriptionYR AnnualDue amountdeposited reason AnnualBalance
+Blog
